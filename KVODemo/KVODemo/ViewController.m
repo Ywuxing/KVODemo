@@ -36,6 +36,8 @@
     
     //4、自定义KVO，测试这个最好放最后单独测试，测试时候屏蔽上面的方法，因为自定义KVO新建了Person的子类，把类的isa指向修改了，影响了系统的KVO，会使得内部没有实现的方法受影响，比如对容器的监听，内部没有实现，不会执行observeValueForKeyPath方法
 //    [self customKVO];
+    
+    
    
 }
 #pragma mark----1、触发模式
